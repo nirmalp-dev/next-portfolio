@@ -19,6 +19,7 @@ export const Sidebar = () => {
 
   return (
     <>
+
       <AnimatePresence>
         {open && (
           <motion.div

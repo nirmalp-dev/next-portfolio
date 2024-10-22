@@ -12,15 +12,13 @@ export const timeline = [
     ],
   },
   {
-    company: "Google",
-    title: "Senior Software Engineer",
-    date: "2021 - 2022",
+    company: "Illinois Institute of Technology",
+    title: "Research Assistant",
+    date: "February 2024 - May 2024",
     description: "Building the future of search",
     responsibilities: [
-      "Improved the search algorithm to provide more relevant results",
-      "Developed a new feature that personalizes search results",
-      "Enhanced the search functionality making it more intuitive and user-friendly",
-      "Implemented a feature for tracking search history",
+      "Regression Analysis, Lag Analysis on different tax data and health data to find the correlation",
+      "Research on impact of grocery tax and restaurant tax on health diseases such as diabetes and obesity.",
     ],
   },
   {
