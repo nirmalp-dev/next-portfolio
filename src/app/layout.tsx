@@ -13,7 +13,7 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "Nirmal Patel - Developer",
   description:
-    "John Doe is a developer, writer and speaker. He is a digital nomad and travels around the world while working remotely.",
+    "Nirmal Patel is a developer. He is a digital nomad and travels around the world.",
 };
 
 export default function RootLayout({

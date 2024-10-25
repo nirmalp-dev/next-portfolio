@@ -6,20 +6,20 @@ import { twMerge } from "tailwind-merge";
 export const TechStack = () => {
   const stack = [
     {
-      title: "Next.js",
-      src: "/images/logos/next.png",
+      title: "GoLang",
+      src: "/images/logos/go.png",
 
       className: "h-10 w-14",
     },
     {
-      title: "AWS",
-      src: "/images/logos/aws.webp",
+      title: "Azure",
+      src: "/images/logos/azure.svg.png",
 
       className: "h-10 w-10",
     },
     {
-      title: "Figma",
-      src: "/images/logos/figma.png",
+      title: "Java",
+      src: "/images/logos/java.webp",
 
       className: "h-10 w-8",
     },

@@ -4,10 +4,10 @@ import {AnimatePresence, motion, LayoutGroup} from "framer-motion";
 import {cn} from "@/lib/utils";
 
 export const FlipWords = ({
-                              words,
-                              duration = 3000,
-                              className,
-                          }: {
+      words,
+      duration = 3000,
+      className,
+}: {
     words: string[];
     duration?: number;
     className?: string;
@@ -58,12 +58,11 @@ export const FlipWords = ({
                     position: "absolute",
                 }}
                 className={cn(
-                    "z-10 inline-block relative text-left text-neutral-900 dark:text-neutral-100 px-2",
+                    "z-10 inline-block relative text-left text-neutral-900 px-2", //dark:text-neutral-100
                     className
                 )}
                 key={currentWord}
             >
-                {/* edit suggested by Sajal: https://x.com/DewanganSajal */}
                 {currentWord.split(" ").map((word, wordIndex) => (
                     <motion.span
                         key={word + wordIndex}

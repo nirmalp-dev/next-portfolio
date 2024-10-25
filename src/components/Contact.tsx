@@ -20,9 +20,36 @@ export const Contact = () => {
 
   const handleSubmit = (e: any) => {
     e.preventDefault();
-    // Write your submit logic here
-    console.log(formData);
+      // Create a new form element
+      const form = document.createElement("form");
+      form.action = "https://docs.google.com/forms/d/e/1FAIpQLSdgcXqSvs8N5k6o_F4Y81DXRmV719DhvKfP-MzimkhHtbdtFg/formResponse";
+      form.method = "POST";
+      form.target = "_self";
+
+      // Create input elements for each field
+      const nameInput = document.createElement("input");
+      nameInput.type = "hidden";
+      nameInput.name = "entry.904271370"; // Replace with your entry ID
+      nameInput.value = formData.name.value;
+      form.appendChild(nameInput);
+
+      const emailInput = document.createElement("input");
+      emailInput.type = "hidden";
+      emailInput.name = "entry.925914791"; // Replace with your entry ID
+      emailInput.value = formData.email.value;
+      form.appendChild(emailInput);
+
+      const messageInput = document.createElement("input");
+      messageInput.type = "hidden";
+      messageInput.name = "entry.580039710"; // Replace with your entry ID
+      messageInput.value = formData.message.value;
+      form.appendChild(messageInput);
+
+      // Append and submit the form
+      document.body.appendChild(form);
+      form.submit();
   };
+  console.log(formData);
   return (
     <form className="form" onSubmit={handleSubmit}>
       <div className="flex flex-col md:flex-row justify-between gap-5">
