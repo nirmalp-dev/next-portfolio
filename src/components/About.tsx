@@ -7,10 +7,8 @@ import chicago from "public/images/chicago.jpeg";
 import me_in_nc from "public/images/me-in-nc.jpeg";
 
 import { motion } from "framer-motion";
-import {FlipWords} from "@/components/ui/flip-words";
 
 export default function About() {
-  const words = ["Android Developer", "Backend Developer"];
   const images = [
     fetch,
     me,
@@ -48,8 +46,6 @@ export default function About() {
 
       <div className="max-w-4xl">
         <Paragraph className=" mt-4">
-          <FlipWords words={words} /> <br />
-
           Hey there, I'm Nirmal Patel - a dedicated software engineer and an avid explorer of the great outdoors.
           Welcome to my digital space!
         </Paragraph>

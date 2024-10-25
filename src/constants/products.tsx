@@ -10,121 +10,60 @@ import sidefolioTailwindMasterKit2 from "public/images/sidefolio-tailwindmasterk
 export const products = [
   {
     href: "https://aceternity.com",
-    title: "Aceternity",
+    title: "Medic.AI",
     description:
       "A design and development studio that focuses on building quality apps.",
     thumbnail: sidefolioAceternity,
     images: [sidefolioAceternity, sidefolioAceternity2],
-    stack: ["Nextjs", "Tailwindcss"],
+    stack: ["NLP", "MongoDB"],
     slug: "aceternity",
     content: (
       <div>
         <p>
-          Sit eiusmod ex mollit sit quis ad deserunt. Sint aliqua aliqua ullamco
-          dolore nulla amet tempor sunt est ipsum. Dolor laborum eiusmod
-          cupidatat consectetur velit ipsum. Deserunt nisi in culpa laboris
-          cupidatat elit velit aute mollit nisi. Officia ad exercitation laboris
-          non cupidatat duis esse velit ut culpa et.{" "}
+          Developed Full Stack web app which maintains the patient data and reports in one place. It has features like searching for generic medicines
+          and nearby labs, and hospitals.{" "}
         </p>
         <p>
-          Exercitation pariatur enim occaecat adipisicing nostrud adipisicing
-          Lorem tempor ullamco exercitation quis et dolor sint. Adipisicing sunt
-          sit aute fugiat incididunt nostrud consequat proident fugiat id.
-          Officia aliquip laborum labore eu culpa dolor reprehenderit eu ex enim
-          reprehenderit. Cillum Lorem veniam eu magna exercitation.
-          Reprehenderit adipisicing minim et officia enim et veniam Lorem
-          excepteur velit adipisicing et Lorem magna.
-        </p>{" "}
-      </div>
-    ),
-  },
-  {
-    href: "https://algochurn.com",
-    title: "Algochurn",
-    description:
-      "Practice for technical interviews with hands on coding challenges.",
-    thumbnail: sidefolioAlgochurn,
-    images: [sidefolioAlgochurn, sidefolioAlgochurn2],
-    stack: ["Nextjs", "Tailwindcss"],
-    slug: "algochurn",
-    content: (
-      <div>
-        <p>
-          Sit eiusmod ex mollit sit quis ad deserunt. Sint aliqua aliqua ullamco
-          dolore nulla amet tempor sunt est ipsum. Dolor laborum eiusmod
-          cupidatat consectetur velit ipsum. Deserunt nisi in culpa laboris
-          cupidatat elit velit aute mollit nisi. Officia ad exercitation laboris
-          non cupidatat duis esse velit ut culpa et.{" "}
-        </p>
-        <p>
-          Exercitation pariatur enim occaecat adipisicing nostrud adipisicing
-          Lorem tempor ullamco exercitation quis et dolor sint. Adipisicing sunt
-          sit aute fugiat incididunt nostrud consequat proident fugiat id.
-          Officia aliquip laborum labore eu culpa dolor reprehenderit eu ex enim
-          reprehenderit. Cillum Lorem veniam eu magna exercitation.
-          Reprehenderit adipisicing minim et officia enim et veniam Lorem
-          excepteur velit adipisicing et Lorem magna.
-        </p>{" "}
-      </div>
-    ),
-  },
-  {
-    href: "https://gomoonbeam.com",
-    title: "Moonbeam",
-    description:
-      "Never write from scratch again with Moonbeam, your AI first writing tool",
-    thumbnail: sidefolioMoonbeam,
-    images: [sidefolioMoonbeam, sidefolioMoonbeam2],
-    stack: ["Nextjs", "Tailwindcss"],
-    slug: "moonbeam",
-    content: (
-      <div>
-        <p>
-          Sit eiusmod ex mollit sit quis ad deserunt. Sint aliqua aliqua ullamco
-          dolore nulla amet tempor sunt est ipsum. Dolor laborum eiusmod
-          cupidatat consectetur velit ipsum. Deserunt nisi in culpa laboris
-          cupidatat elit velit aute mollit nisi. Officia ad exercitation laboris
-          non cupidatat duis esse velit ut culpa et.{" "}
-        </p>
-        <p>
-          Exercitation pariatur enim occaecat adipisicing nostrud adipisicing
-          Lorem tempor ullamco exercitation quis et dolor sint. Adipisicing sunt
-          sit aute fugiat incididunt nostrud consequat proident fugiat id.
-          Officia aliquip laborum labore eu culpa dolor reprehenderit eu ex enim
-          reprehenderit. Cillum Lorem veniam eu magna exercitation.
-          Reprehenderit adipisicing minim et officia enim et veniam Lorem
-          excepteur velit adipisicing et Lorem magna.
+          Integration with the Microsoft Azure Health Chat bot was also done to query symptoms from the platform. Diabetic Retinopathy for initial
+          review of the patient.
         </p>{" "}
       </div>
     ),
   },
   {
     href: "https://tailwindmasterkit.com",
-    title: "Tailwind Master Kit",
+    title: "E-Commerce Platform",
     description:
-      "A beautiful and comprehensive Tailwind CSS components library for building modern websites and applications.",
+      "A full-stack, production-ready e-commerce platform with modern technologies, containerized with Docker for " +
+        "easy deployment and scaling.",
     thumbnail: sidefolioTailwindMasterKit,
     images: [sidefolioTailwindMasterKit, sidefolioTailwindMasterKit2],
-    stack: ["Nextjs", "Tailwindcss"],
+    stack: ["Go", "React", "MongoDB", "Grafana"],
     slug: "tailwindmasterkit",
     content: (
       <div>
         <p>
-          Sit eiusmod ex mollit sit quis ad deserunt. Sint aliqua aliqua ullamco
-          dolore nulla amet tempor sunt est ipsum. Dolor laborum eiusmod
-          cupidatat consectetur velit ipsum. Deserunt nisi in culpa laboris
-          cupidatat elit velit aute mollit nisi. Officia ad exercitation laboris
-          non cupidatat duis esse velit ut culpa et.{" "}
+          The backend is built using Go, designed to handle the business logic, including product management,
+          ser interactions, and a dynamic discount engine based on user segmentation.
+          The frontend is developed in React, providing an intuitive and responsive user interface.
+          The entire platform is containerized with Docker, allowing for rapid and consistent
+          deployment across different environments.{" "}
         </p>
         <p>
-          Exercitation pariatur enim occaecat adipisicing nostrud adipisicing
-          Lorem tempor ullamco exercitation quis et dolor sint. Adipisicing sunt
-          sit aute fugiat incididunt nostrud consequat proident fugiat id.
-          Officia aliquip laborum labore eu culpa dolor reprehenderit eu ex enim
-          reprehenderit. Cillum Lorem veniam eu magna exercitation.
-          Reprehenderit adipisicing minim et officia enim et veniam Lorem
-          excepteur velit adipisicing et Lorem magna.
+          For data management, the platform utilizes MySQL for handling transactional data, such as orders,
+          inventory, and user information, while MongoDB is used for managing user-generated content,
+          including product reviews and ratings. Key features include trending and most-liked product sections,
+          which are dynamically updated based on user interactions,
+          and a comprehensive inventory management system that allows for real-time tracking and updates.
+          The discount engine enables the platform to offer personalized discounts to specific user segments,
+          optimizing customer engagement and conversion rates.{" "}
         </p>{" "}
+        <p>
+          The platform’s architecture is designed for scalability and flexibility, making it ready for production deployment.
+          With a focus on user experience and efficient data management, it supports crucial e-commerce functionalities like inventory management,
+          personalized user recommendations, and review systems. The use of Docker ensures easy scaling and integration
+          into any production environment, making it a robust solution for modern e-commerce needs.
+        </p>
       </div>
     ),
   },
