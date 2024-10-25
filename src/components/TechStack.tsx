@@ -24,29 +24,29 @@ export const TechStack = () => {
       className: "h-10 w-8",
     },
     {
-      title: "Framer Motion",
-      src: "/images/logos/framer.webp",
+      title: "Android",
+      src: "/images/logos/android.webp",
 
       className: "h-10 w-10",
     },
     {
-      title: "Node",
-      src: "/images/logos/node.png",
+      title: "Kotlin",
+      src: "/images/logos/kotlin.png",
 
       className: "h-10 w-12",
     },
-    {
-      title: "Tailwind",
-      src: "/images/logos/tailwind.png",
-
-      className: "h-10 w-24",
-    },
-    {
-      title: "Vercel",
-      src: "/images/logos/vercel.png",
-
-      className: "h-10 w-24",
-    },
+    // {
+    //   title: "Tailwind",
+    //   src: "/images/logos/tailwind.png",
+    //
+    //   className: "h-10 w-24",
+    // },
+    // {
+    //   title: "Vercel",
+    //   src: "/images/logos/vercel.png",
+    //
+    //   className: "h-10 w-24",
+    // },
   ];
   return (
     <div>
