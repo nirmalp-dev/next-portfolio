@@ -21,8 +21,11 @@ export default function Projects() {
       <Paragraph className="mb-10 max-w-xl">
         Reach out to me over email or fill up this contact form. I will get back
         to you ASAP - I promise.{" "}
+
       </Paragraph>
       <Contact />
+
+        <Paragraph className="max-w-xl"> Note: This will fill google form, I shall get back to you ASAP.</Paragraph>
     </Container>
   );
 }
