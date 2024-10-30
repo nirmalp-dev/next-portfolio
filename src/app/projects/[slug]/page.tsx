@@ -14,21 +14,11 @@ type Props = {
   params: { slug: string };
 };
 
-export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const slug = params.slug;
-  const product = products.find((p) => p.slug === slug) as Product | undefined;
-  if (product) {
-    return {
-      title: product.title,
-      description: product.description,
-    };
-  } else {
-    return {
-      title: "Projects | Nirmal Patel",
-      description:
-        "Nirmal Patel is a developer. He is a digital nomad and travels around the world.",
-    };
-  }
+// getStaticPaths generates all paths with products' slugs
+export async function generateStaticParams() {
+  return products.map((product) => ({
+    slug: product.slug,
+  }));
 }
 
 export default function SingleProjectPage({
