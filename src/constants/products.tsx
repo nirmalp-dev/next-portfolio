@@ -1,7 +1,5 @@
-import sidefolioAceternity from "public/images/sidefolio-aceternity-2.png";
-import sidefolioAceternity2 from "public/images/sidefolio-aceternity-2.png";
-import sidefolioTailwindMasterKit from "public/images/sidefolio-tailwindmasterkit.png";
-import sidefolioTailwindMasterKit2 from "public/images/sidefolio-tailwindmasterkit-2.png";
+import domoThumbnail from "public/images/domo-image.webp";
+import medicThumbnail from "public/images/medic-ai-image.webp";
 
 export const products = [
   {
@@ -10,8 +8,8 @@ export const products = [
     description:
         "A full-stack, production-ready e-commerce platform with modern technologies, containerized with Docker for " +
         "easy deployment and scaling.",
-    thumbnail: sidefolioTailwindMasterKit,
-    images: [sidefolioTailwindMasterKit, sidefolioTailwindMasterKit2],
+    thumbnail: domoThumbnail,
+    images: [domoThumbnail],
     stack: ["Go", "React", "MongoDB", "Grafana"],
     slug: "e-commerce-platform",
     content: (
@@ -46,8 +44,8 @@ export const products = [
     title: "Medic.AI",
     description:
       "A platform to help patient get the right data in one place",
-    thumbnail: sidefolioAceternity,
-    images: [sidefolioAceternity, sidefolioAceternity2],
+    thumbnail: medicThumbnail,
+    images: [medicThumbnail],
     stack: ["NLP", "MongoDB"],
     slug: "medic-ai",
     content: (
