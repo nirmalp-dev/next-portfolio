@@ -17,7 +17,7 @@ export const products = [
     thumbnail: sidefolioTailwindMasterKit,
     images: [sidefolioTailwindMasterKit, sidefolioTailwindMasterKit2],
     stack: ["Go", "React", "MongoDB", "Grafana"],
-    slug: "tailwindmasterkit",
+    slug: "e-commerce-platform",
     content: (
         <div>
           <p>
@@ -53,7 +53,7 @@ export const products = [
     thumbnail: sidefolioAceternity,
     images: [sidefolioAceternity, sidefolioAceternity2],
     stack: ["NLP", "MongoDB"],
-    slug: "aceternity",
+    slug: "medic-ai",
     content: (
       <div>
         <p>
