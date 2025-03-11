@@ -7,14 +7,29 @@ import go_logo from "public/images/logos/go.png"
 import java_logo from "public/images/logos/java.webp"
 import android_logo from "public/images/logos/android.webp"
 import kotlin_logo from "public/images/logos/kotlin.png"
+import python_logo from "public/images/logos/python.webp"
+import node_logo from "public/images/logos/node.webp"
+import aws_logo from "public/images/logos/aws.png"
 
 export const TechStack = () => {
   const stack = [
     {
-      title: "GoLang",
-      src: go_logo,
+      title: "Python",
+      src: python_logo,
 
-      className: "h-10 w-14",
+      className: "h-10 w-12",
+    },
+    {
+      title: "Node",
+      src: node_logo,
+
+      className: "h-10 w-12",
+    },
+    {
+      title: "AWS",
+      src: aws_logo,
+
+      className: "h-10 w-12",
     },
     {
       title: "Azure",
@@ -27,6 +42,12 @@ export const TechStack = () => {
       src: java_logo,
 
       className: "h-10 w-8",
+    },
+    {
+      title: "GoLang",
+      src: go_logo,
+
+      className: "h-10 w-14",
     },
     {
       title: "Android",
